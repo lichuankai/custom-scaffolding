@@ -1,0 +1,29 @@
+{
+  "name": "custom-scaffolding",
+  "version": "1.0.0",
+  "description": "个人自定义脚手架",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "lxb": "./bin/mvc.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lichuankai/custom-scaffolding.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lichuankai/custom-scaffolding/issues"
+  },
+  "homepage": "https://github.com/lichuankai/custom-scaffolding#readme",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "fs-extra": "^10.1.0",
+    "globby": "^13.1.2",
+    "inquirer": "^9.1.1"
+  }
+}
